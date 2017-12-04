@@ -52,4 +52,6 @@ make install
 
 # Add zsh to available shells
 sudo sh -c "echo /bin/zsh >> /etc/shells"
+
+# Change default shell to zsh
 chsh -s $(which zsh)
